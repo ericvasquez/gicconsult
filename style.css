@@ -15,11 +15,33 @@
     margin-top: 40px;
 }
 
-.life_insurance{
+/* .life_insurance{
     display: inline-block;
-}
+} */
 
 .medicare_insurance, .life_insurance    {
-    width: 40%;
+    width: 50%;
+    margin: 20px;
+}
+
+.insurance{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insurance img{
+    width: 90%;
+}
+
+.thirdSection, .impartial {
+    background-color: rgb(51, 51, 51);
     margin: 0;
+}
+
+.thirdSection .card {
+    margin: 0 auto;
+}
+
+.impartial{
+    padding: 100px 0;
 }
