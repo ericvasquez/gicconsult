@@ -72,3 +72,20 @@ h2 {
 	padding-top: 100px;
 	background-color: rgb(51, 51, 51);
 }
+
+.about {
+	background-color: rgb(215, 222, 236);
+}
+
+.you {
+	background-color: rgb(80, 116, 186);
+	color: white;
+}
+
+#navbarNavDropdown{
+	background-color: rgb(53, 87, 156);
+}
+
+.navbar-nav{
+	color: black;
+}
