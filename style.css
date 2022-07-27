@@ -1,4 +1,4 @@
-body {
+/* body {
 	position: absolute;
    }
 
@@ -47,4 +47,8 @@ h2 {
 .basics h5{
     color: rgb(160, 192, 250);
 }
-
+ */
+.title h4 a{
+    color: red;
+    text-decoration: none;
+}
