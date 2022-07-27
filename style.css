@@ -92,3 +92,16 @@ iframe
 	margin-top: 40px;
 	color: rgb(39, 99, 146);
 }
+
+.prescription h1 {
+    text-align: center;
+    color: rgb(39, 99, 146);
+}
+
+.prescription img {
+    width: 400px;
+}
+
+.costs h1 {
+    color: rgb(34, 83, 143);
+}
