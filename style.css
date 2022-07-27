@@ -52,3 +52,12 @@ h2 {
     color: red;
     text-decoration: none;
 }
+
+.nav {
+    background-color: rgb(79, 103, 167);
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
