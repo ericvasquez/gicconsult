@@ -61,3 +61,22 @@ h2 {
     text-decoration: none;
     color: white;
 }
+
+.know {
+    background-color: rgb(157, 164, 217);
+}
+
+.cost {
+    text-align: center;
+}
+
+.cost span {
+    color: red;
+    text-decoration: underline;
+}
+
+.contactUs {
+    text-align: center;
+    color: white;
+    background-color: red;
+}
