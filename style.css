@@ -120,7 +120,7 @@ iframe
     list-style-type: none;
     position: relative;
     padding-left: 15px;
-  }
+}
 
 .are li:before {
     content: "\25BA \0020";
@@ -128,8 +128,16 @@ iframe
     position: absolute;
     top: 5px;
     left: -10px;
-  }
+}
 
   .contact {
     margin: auto;
-  }
+}
+
+  .testimonials h1 {
+    color: rgb(34, 83, 143);
+}
+
+.bottom h5 {
+    text-align: center;
+}
