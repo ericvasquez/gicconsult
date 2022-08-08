@@ -1,10 +1,30 @@
-/* body {
-	position: absolute;
-   }
- */
+/* body
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+} */
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .title h4 a{
     color: red;
     text-decoration: none;
+}
+
+.title img {
+    height: 200px;
 }
 
 .nav {
@@ -44,12 +64,12 @@
     color: rgb(34, 83, 143);
 }
 
-iframe
+.presentation iframe
  {
-	text-align: center;
-	width: 100%;
-	margin-top: 40px;
-	color: rgb(39, 99, 146);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 .prescription h1 {
@@ -109,3 +129,4 @@ iframe
 .bottom h5 {
     text-align: center;
 }
+
