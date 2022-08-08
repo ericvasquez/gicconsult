@@ -29,6 +29,11 @@
     text-decoration: underline;
 }
 
+.presentation h4 {
+    color: rgb(39, 99, 146);
+    text-align: center;
+}
+
 .contactUs {
     text-align: center;
     color: white;
@@ -64,6 +69,15 @@ iframe
 .costs {
     width: 75%;
     margin: auto;
+}
+
+.help h1 {
+    color: rgb(34, 83, 143);
+}
+
+.help h4 a{
+    color: red;
+    text-decoration: none;
 }
 
 .are h1 {
