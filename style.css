@@ -4,11 +4,11 @@
   margin-left: 50px;
   margin-right: 50px;
 } */
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
-html {
+/* html {
     display: table;
     margin: auto;
 }
@@ -16,7 +16,16 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+} */
+/* html{
+    width:100%;
+    height:100%;
 }
+body{
+    width:100%;
+    height:100%;
+    background-color:#DDD;
+} */
 
 .title h4 a{
     color: red;
@@ -25,6 +34,7 @@ body {
 
 .title img {
     height: 200px;
+    width: 250px;
 }
 
 .nav {
@@ -78,7 +88,7 @@ body {
 }
 
 .prescription img {
-    width: 400px;
+    width: 200px;
 }
 
 .costs h1 {
@@ -118,11 +128,15 @@ body {
     left: -10px;
 }
 
-  .contact {
+.contact {
     margin: auto;
 }
 
-  .testimonials h1 {
+.whoIs h1 {
+    color: rgb(34, 83, 143);
+}
+
+.testimonials h1 {
     color: rgb(34, 83, 143);
 }
 
