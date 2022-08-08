@@ -104,4 +104,33 @@ iframe
 
 .costs h1 {
     color: rgb(34, 83, 143);
+    background-color: white;
 }
+
+.costs {
+    width: 75%;
+    margin: auto;
+}
+
+.are h1 {
+    color: rgb(34, 83, 143);
+}
+
+.are li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+  }
+
+.are li:before {
+    content: "\25BA \0020";
+    font-size: 6px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+  }
+
+  .contact h1 {
+    color: rgb(34, 83, 143);
+    text-align: center;
+  }
