@@ -1,9 +1,9 @@
-/* body
+body
 {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-} */
+}
 /* html, body {
     height: 100%;
 } */
@@ -132,6 +132,10 @@ body{
     margin: auto;
 }
 
+.btn {
+    margin-bottom: 20px;
+}
+
 .whoIs h1 {
     color: rgb(34, 83, 143);
 }
@@ -143,4 +147,30 @@ body{
 .bottom h5 {
     text-align: center;
 }
+.community h1 {
+    color: rgb(34, 83, 143);
+    text-align: center;
+}
 
+.community2 img {
+    width: 200px;
+}
+
+.community1 img {
+    height: 200px;
+
+}
+
+.community3 img {
+    width: 200px;
+}
+
+.community4 img {
+    width: 250px;
+    height: 150px;
+}
+
+.community5 img {
+    height: 200px;
+    width: 310px;
+}
