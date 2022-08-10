@@ -159,22 +159,34 @@
         <!-- Contact Form -->
         <h1 style="color: rgb(34, 83, 143);
         text-align: center;">Let Us Contact You for a <span style="color: red; text-decoration: underline;">NO COST </span> Consultation!</h1>
-        <form class="row g-3 contact border border-primary border-5">
+        <form action="mailto:belinda@gicconsult.com" method="post" enctype="text/plain" class="row g-3 contact border border-primary border-5">
             <div class="col-md-6">
-              <label for="firstName" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="First name" aria-label="First name">
+              <label for="firstName" class="form-label">First Name <span style="color: red">*</span></label>
+              <input type="text" name="First Name" class="form-control" id="firstName" placeholder="First name" aria-label="First name" required oninvalid="this.setCustomValidity('First Name is required')"
+              oninput="setCustomValidity('')">
             </div>
             <div class="col-md-6">
-              <label for="lastName" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Last name" aria-label="Last name">
+              <label for="lastName" class="form-label">Last Name <span style="color: red">*</span></label>
+              <input type="text" name="Last Name" class="form-control" id="lastName" placeholder="Last name" aria-label="Last name" required oninvalid="this.setCustomValidity('Last Name is required')"
+              oninput="setCustomValidity('')">
             </div>
             <div class="col-12">
-              <label for="phone" class="form-label">Phone</label>
-              <input type="text" class="form-control" id="phone" placeholder="Phone">
+              <label for="phone" class="form-label">Phone <span style="color: red">*</span></label>
+              <input type="tel" name="Phone" placeholder="Phone" oninvalid="this.setCustomValidity('Phone Number is required')"
+              oninput="setCustomValidity('Must be 10 digits')" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" id="phone" maxlength="12" required>
+              <!-- Add dashes to phone number and max length -->
+              <script>
+                var tele = document.querySelector('#phone');
+              tele.addEventListener('keyup', function(e){
+                if (event.key != 'Backspace' && (tele.value.length === 3 || tele.value.length === 7)){
+                tele.value += '-';
+                }
+              });
+              </script>
             </div>
             <div class="col-12">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input type="email" name="Email" class="form-control" id="email" placeholder="Email">
             </div>
             <div class="col-12">
                 <p>By signing this form, you voluntarily allow GIC Insurance Consultants to contact you by phone or email to answer your questions or provide additional information about your Medicare plan options.</p>
@@ -238,11 +250,14 @@
             <a href="https://www.facebook.com/GIC-Insurance-Consultants-104086568838275/?ref=qr_code"><img src="images/facebook-32x32-trans.png" alt="Facebook" style="width:100px;height:100px;"></a>
 
             <!-- Map -->
-            <p style="text-align: center;">
+                <p style="text-align: center;">
                 <h5>Click on Map for Directions</h5>
-                <iframe width="800" height="250" style="border:0" loading="lazy" allowfullscreen
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPWcI861gXIYRCioJRXlHJOA&key=AIzaSyClYDLRwtDW79UYKEWng4UIPapaNB5uSVY" class="img-fluid"></iframe></p>
+                <!-- <iframe width="800" height="250" style="border:0" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPWcI861gXIYRCioJRXlHJOA&key=AIzaSyClYDLRwtDW79UYKEWng4UIPapaNB5uSVY" class="img-fluid"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.756596983156!2d-98.57008014934532!3d29.523453181986923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c610c74b4281f%3A0x1f50234a05f5f549!2sGIC%20Insurance%20Consultants%20LLC!5e0!3m2!1sen!2sus!4v1660142232296!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
             </div>
         </div>
+
 </body>
 </html>
