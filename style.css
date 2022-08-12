@@ -92,7 +92,7 @@ body{
 }
 
 .prescription img {
-    width: 300px;
+    height: auto;
 }
 
 .costs h1 {
@@ -158,25 +158,33 @@ body{
 }
 
 .community2 img {
-    width: 200px;
+    max-width: 100%;
+    height: auto;
+  
 }
 
 .community1 img {
-    height: 200px;
+    max-width: 100%;
+    height: auto;
+  
 }
 
 .community3 img {
-    width: 200px;
+    max-width: 100%;
+    height: auto;
+  
 }
 
 .community4 img {
-    width: 250px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
+  
 }
 
 .community5 img {
-    height: 200px;
-    width: 310px;
+    max-width: 100%;
+    height: auto;
+  
 }
 
 .join h1 {
