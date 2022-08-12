@@ -161,7 +161,7 @@
         </div>
 
         <!-- Contact Form -->
-        <h1 style="color: rgb(34, 83, 143);
+        <!-- <h1 style="color: rgb(34, 83, 143);
         text-align: center;">Let Us Contact You for a <span style="color: red; text-decoration: underline;">NO COST </span> Consultation!</h1>
         <form action="mailto:belinda@gicconsult.com" method="post" enctype="text/plain" class="row g-3 contact border border-primary border-5">
             <div class="col-md-6">
@@ -177,9 +177,11 @@
             <div class="col-12">
               <label for="phone" class="form-label">Phone <span style="color: red">*</span></label>
               <input type="tel" name="Phone" placeholder="Phone" oninvalid="this.setCustomValidity('Phone Number is required')"
-              oninput="setCustomValidity('Must be 10 digits')" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" id="phone" maxlength="12" required>
+              oninput="setCustomValidity('Must be 10 digits')" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" id="phone" maxlength="12" required> -->
+
               <!-- Add dashes to phone number and max length -->
-              <script>
+
+              <!-- <script>
                 var tele = document.querySelector('#phone');
               tele.addEventListener('keyup', function(e){
                 if (event.key != 'Backspace' && (tele.value.length === 3 || tele.value.length === 7)){
@@ -201,7 +203,74 @@
             </div>
           </form>
         <br>
-        <br>
+        <br> -->
+
+    <!-- Contact Form Using Form Submit-->
+		<div class="container-fluid">
+			<h1 style="color: rgb(34, 83, 143); text-align: center">
+				Let Us Contact You for a
+				<span style="color: red; text-decoration: underline">NO COST </span>
+				Consultation!
+			</h1>
+			<form target="_blank" action="https://formsubmit.co/eric.v3355@gmail.com" method="POST"
+				class="row g-3 contact border border-primary border-5">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-6">
+							<label for="First Name" class="form-label">First Name <span
+									style="color: red">*</span></label>
+							<input type="text" name="First Name" class="form-control" placeholder="First Name"
+								required />
+						</div>
+						<div class="col-md-6">
+							<label for="Last Name" class="form-label">Last Name <span
+									style="color: red">*</span></label>
+							<input type="text" name="Last Name" class="form-control" placeholder="Last Name" required />
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12">
+							<label for="phone" class="form-label">Phone <span style="color: red">*</span></label>
+							<input type="tel" name="Phone" class="form-control" placeholder="Phone" required id="phone" maxlength="12"/>
+        <!-- Add dashes to phone number and max length -->
+
+        <script>
+                var tele = document.querySelector('#phone');
+              tele.addEventListener('keyup', function(e){
+                if (event.key != 'Backspace' && (tele.value.length === 3 || tele.value.length === 7)){
+                tele.value += '-';
+                }
+              });
+              </script>
+						</div>
+						<div class="col-12">
+							<label for="email" class="form-label">Email</label>
+							<input type="email" name="Email" class="form-control" placeholder="Email Address"
+								 />
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<p>
+						By submitting this form, you voluntarily allow GIC Insurance
+						Consultants to contact you by phone or email to answer your
+						questions or provide additional information about your Medicare plan
+						options.
+					</p>
+					<p>All information is confidential.</p>
+				</div>
+
+				<input type="hidden" name="_next" value="http://127.0.0.1:5500/formSubmit.html" />
+
+				<button type="submit"
+					class="btn btn-primary border border-3 border-dark btn-block d-grid gap-2 col-3 mx-auto text-center">
+					Click to Submit
+				</button>
+			</form>
+		</div>
+    <br>
+    <br>
 
         <!-- Who Is -->
         <div class="whoIs" id="whoIs">
