@@ -3,9 +3,9 @@ html {
 }
 body
 {
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 /* html, body {
     height: 100%;
@@ -33,11 +33,12 @@ body{
 .title h4 a{
     color: red;
     text-decoration: none;
+    text-align: center;
 }
 
 .title img {
     height: 250px;
-    width: 300px;
+    width: 350px;
 }
 
 .nav {
@@ -91,7 +92,7 @@ body{
 }
 
 .prescription img {
-    width: 400px;
+    width: 300px;
 }
 
 .costs h1 {
@@ -150,6 +151,7 @@ body{
 .bottom h5 {
     text-align: center;
 }
+
 .community h1 {
     color: rgb(34, 83, 143);
     text-align: center;
