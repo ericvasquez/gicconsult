@@ -194,3 +194,15 @@ body{
 .fb h1 {
     color: rgb(34, 83, 143);
 }
+
+li  {
+    font-size: x-large;
+}
+
+p   {
+    font-size: x-large;
+}
+
+label   {
+    font-size: x-large;
+}
