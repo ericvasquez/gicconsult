@@ -42,7 +42,7 @@ body{
 }
 
 .nav {
-    background-color: rgb(79, 103, 167);
+    background-color: rgb(39, 99, 146);
 }
 
 .nav a {
@@ -51,7 +51,8 @@ body{
 }
 
 .know {
-    background-color: rgb(157, 164, 217);
+    background-color:  rgb(39, 99, 146);
+    color: white;
 }
 
 .cost {
