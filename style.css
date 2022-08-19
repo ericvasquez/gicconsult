@@ -75,6 +75,11 @@ body{
     background-color: red;
 }
 
+.contactUs a {
+    text-decoration: none;
+    color: white;
+}
+
 .basics h1 {
     color: rgb(34, 83, 143);
 }
