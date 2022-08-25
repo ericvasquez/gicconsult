@@ -119,6 +119,16 @@ body{
     margin: auto;
 }
 
+.advantage h1 {
+    color: rgb(34, 83, 143);
+    background-color: white;
+}
+
+.advantage {
+    width: 75%;
+    margin: auto;
+}
+
 .help h1 {
     color: rgb(34, 83, 143);
 }
