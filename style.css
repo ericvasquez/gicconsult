@@ -84,6 +84,14 @@ body{
     color: rgb(34, 83, 143);
 }
 
+.parts h1 {
+    color: rgb(34, 83, 143);
+}
+
+.parts img {
+    height: auto;
+}
+
 .presentation iframe
  {
     display: block;
