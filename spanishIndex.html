@@ -23,11 +23,31 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="ZSp2S1ej"></script>
 
   <div class="container-fluid">
-    <div class="title d-flex justify-content-around">
+    <!-- <div class="title d-flex justify-content-around">
         <h4 class="d-flex align-items-end fw-bolder mx-auto"><a href="index.html">English Version</a></h4>
             <img src="images/currentGIClogo.png" class="rounded mx-auto d-block" alt="...">
             <h4 class="d-flex align-items-end fw-bolder mx-auto"><a href="tel:2107083996">Llame al 210-708-3996</a></h4>
-    </div>
+    </div> -->
+
+    <div class="container">
+      <div class="title row">
+  <h4 class="col align-self-end fw-bold m-0"><a href="index.html">English Version</a></h4>
+
+
+      <img src="images/currentGIClogo.png" class="col rounded mx-auto d-block" alt="...">
+      
+      <div class="col mt-auto">
+      <h4 class="fw-bold text-end">Teléfono:
+        <a href="tel:2107083996"> 210-708-3996</a>
+        <br>Correo electrónico: 
+        <a href="mailto:info@gicconsult.com">info@gicconsult.com</a>
+      </h4>
+      <!-- <h4 class="fw-bolder"><a href="mailto:info@gicconsult.com">Email: info@gicconsult.com</a></h4>   -->
+      </div>
+
+</div>
+</div>
+
         <p class="text-center fs-5">GIC es una empresa privada no afiliada a Medicare</p>
         <!-- navbar -->
         <ul class="nav justify-content-around fs-4">
@@ -35,19 +55,22 @@
               <a class="nav-link" href="#basics">Fundamentos de Medicare</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Servicios al cliente</a>
+              <a class="nav-link" href="#planBenefits">Beneficios del plan</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#whoIs">¿Quién es GIC?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">testimonios de clientes</a>
+              <a class="nav-link" href="#testimonials">Testimonios de Clientes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contactBottom">Contacta con nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#join">Unete a nuestro equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fbPlugin">Facebook</a>
             </li>
         </ul>
 
@@ -166,7 +189,7 @@
         <br>
 
         <!-- Medication costs -->
-        <div class="costs" id="services">
+        <div class="costs" id="">
           <h1 class="m-auto text-center border border-3 rounded-3 shadow">Costos médicos y de recetas</h1>
           <br>
           <p>Puede calificar para programas que lo ayuden con su prima de la Parte B y los copagos de medicamentos. Le ayudaremos a solicitar estos programas.</p>
@@ -177,7 +200,7 @@
       <br>
 
               <!-- Advantage Plans -->
-              <div class="advantage" id="services">
+              <div class="advantage" id="planBenefits">
                 <h1 class="m-auto text-center border border-3 rounded-3 shadow">Beneficios del plan Medicare Advantage</h1>
                 <br>
                 <ul>
@@ -416,7 +439,7 @@
             <!-- <a href="https://www.facebook.com/GIC-Insurance-Consultants-104086568838275/?ref=qr_code"><img src="images/facebook-32x32-trans.png" alt="Facebook" style="width:100px;height:100px;"></a> -->
 
 
-            <div class="fb">
+            <div class="fb" id="fbPlugin">
               <!-- <h1 class="mx-auto text-center border border-3 rounded-3 shadow w-50">Facebook</h1> -->
               <br>
               <div class="d-flex justify-content-center fb-page" 

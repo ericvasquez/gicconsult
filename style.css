@@ -36,11 +36,11 @@ body{
     /* text-align: center; */
 }
 
-/* .title h4{
+.title h4{
     color: red;
-    text-decoration: none;
-    text-align: center;
-} */
+    /* text-decoration: none;
+    text-align: center; */
+}
 
 .title img {
     height: 250px;
