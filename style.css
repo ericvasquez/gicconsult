@@ -240,3 +240,7 @@ label   {
 /* .contactBottom p {
     font-size: xx-large;
 } */
+
+hr  {
+    color: rgb(34, 83, 143);  
+}
