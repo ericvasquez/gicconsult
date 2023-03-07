@@ -6,6 +6,10 @@ body
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+  background-color: rgb(195, 195, 217)
+}
+.title {
+    background-color: white;
 }
 /* html, body {
     height: 100%;
