@@ -225,3 +225,8 @@ label   {
 hr  {
     color: rgb(34, 83, 143);  
 }
+
+.disclaimer p{
+    text-align: center;
+    font-size: small;
+}
